@@ -42,12 +42,10 @@ A API foi construída com `json-server` e expõe os seguintes endpoints para o r
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/react-crud-produtos.git](https://github.com/seu-usuario/react-crud-produtos.git)
-    cd react-crud-produtos
+    git clone https://github.com/meomachado/crud-produtos
     ```
 
 2.  **Execute a API:**
-    -   Navegue para a pasta da API: `cd api-produtos`
     -   Instale a dependência (se ainda não tiver): `npm install -g json-server`
     -   Inicie o servidor: `json-server --watch db.json --port 3001`
     -   A API estará rodando em `http://localhost:3001`
@@ -55,5 +53,6 @@ A API foi construída com `json-server` e expõe os seguintes endpoints para o r
 3.  **Execute a Aplicação React:**
     -   Abra um **novo terminal** e navegue para a pasta do cliente: `cd client-products`
     -   Instale as dependências: `npm install`
+    -   Instale (se ainda não tiver) `npm install axios`
     -   Inicie a aplicação: `npm start`
     -   A aplicação abrirá em `http://localhost:3000` no seu navegador.
