@@ -1,10 +1,8 @@
-// src/App.js
-
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import ProductList from './components/ProductList';
-import ProductForm from './components/ProductForm'; // O mesmo componente de formulário
-import './App.css';
+import React from "react";  
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import ProductList from "./components/ProductList";
+import  ProductForm from "./components/ProductForm"; // O mesmo componente de formulário
+import "./App.css";
 
 function App() {
   return (
@@ -13,8 +11,16 @@ function App() {
         <header className="App-header">
           <h1>Gerenciador de Produtos</h1>
           <nav>
-            <Link to="/" style={{ textDecoration: 'none', color: 'white', marginRight: '20px' }}>Listagem</Link>
-           
+            <Link
+              to="/"
+              style={{
+                textDecoration: "none",
+                color: "white",
+                marginRight: "20px",
+              }}
+            >
+              Listagem
+            </Link>
           </nav>
         </header>
         <main>

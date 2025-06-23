@@ -3,12 +3,22 @@
     {
       "id": "1",
       "name": "Notebook ",
-      "price": "4600.00"
+      "price": "5000.00"
     },
     {
-      "id": "d29b",
-      "name": "Celular",
-      "price": "5000"
+      "id": "689b",
+      "name": "Caixa",
+      "price": "200.00"
+    },
+    {
+      "id": "47db",
+      "name": "Mouse",
+      "price": "120.00"
+    },
+    {
+      "id": "d959",
+      "name": "Teclado",
+      "price": "120.00"
     }
   ]
 }
